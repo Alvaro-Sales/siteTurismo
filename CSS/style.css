@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do menu */
+.menu {
+    background-color: #222222;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.menu li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+}
+
+.menu li a:hover {
+    color: #0080ff;
+}
+
+/* Estilos dos artigos */
+.article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.article h2 {
+    margin-bottom: 20px;
+}
+
+/* Estilos dos cards */
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card .btnCard {
+    border: none;
+    padding: 10px 0;
+    margin: 30px 0 20px 0;
+    background-color: transparent;
+}
+
+.card .btnCard a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #222222;
+    border-radius: 0 20px;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.card .btnCard a:hover {
+    border-radius: 20px 0;
+    background-color: #0080ff;
+}
+
+/* Estilos do footer */
+.footer {
+    background-color: #222222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
